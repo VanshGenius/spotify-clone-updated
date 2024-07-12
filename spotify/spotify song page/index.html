@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searchbar">
+            <div class="Home-box">
+                <div class="logo"><img src = "logo.svg"></div>
+                <div class="home flex">
+                    <div class="homelogo"><img src = "home.svg"></div>
+                    <div class="hometext">Home</div>
+                </div>
+                <div class="search flex">
+                    <div class="searchlogo mandatory"><img src = "search.svg"></div>
+                    <div class="searchtext">Search</div>
+                </div>
+            </div>
+            <div class="scale"></div>
+            <div class="songbox">
+                <div id="box2ka1" class = "home spotifylogo cur">
+                    <div class="homelogo"><img src="lib.svg"></div>
+                    <div class="searchtext cur">Your Library</div>
+                </div>
+                <div class="button">
+                    <button class="lib-butt invert">Playlists</button>
+                    <button class="lib-butt invert">Artists</button>
+                    <button class="lib-butt invert">Albums</button>
+                </div>
+                <div id="box2ka2" class="scroll">
+                    <div class="song-container">
+                        <div class="search-bar">
+                            <div class="search-svg"><img src="search.svg"></div>
+                            <button class="grey-button">
+                                <div class="recents-cont">
+                                    <div class="recents">Recents</div>
+                                    <img src="recents.svg" class="recents-svg">
+                                </div>
+                            </button>   
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://misc.scdn.co/liked-songs/liked-songs-64.png" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title active">Liked Songs</div>
+                                <div class="desc">Playlist 90 songs</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72ca97cee78b1b543963c3abef3" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Chill Jazz Vibes</div>
+                                <div class="desc">Playlist Chill Beats Music</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c4d272a77fb64a0778814875f" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Attitude Music</div>
+                                <div class="desc">Playlist gokul ji</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Nicotine</div>
+                                <div class="desc">Album</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://wrapped-images.spotifycdn.com/image/yts-2023/default/your-top-songs-2023_DEFAULT_en.jpg" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Your Top Songs 2023</div>
+                                <div class="desc">Playlist Spotify</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cecb745f639a8089ed3ff73fd" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Dil ka Sukoon</div>
+                                <div class="desc">Playlist Souvik Pal</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72ca97cee78b1b543963c3abef3" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Chill Jazz Vibes</div>
+                                <div class="desc">Playlist Chill Beats Music</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Nicotine</div>
+                                <div class="desc">Album</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cecb745f639a8089ed3ff73fd" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Dil ka Sukoon</div>
+                                <div class="desc">Playlist Souvik Pal</div>
+                            </div>
+                        </div>
+                        <div class="song-cards">
+                            <div class="photo"><img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c4d272a77fb64a0778814875f" class="song-cont-img"></div>
+                            <div class="items">
+                                <div class="title">Attitude Music</div>
+                                <div class="desc">Playlist gokul ji</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="ruler"></div>
+        <div class="playbox">
+            <div class="premium">
+                <div class="icon">
+                    <div class="icon1 pointer"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="icon1 pointer"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+                <div class="button">
+                    <button class="explore invert2">Explore Premium</button>
+                    <button class="install invert">Install App</button>
+                    <div class="noti invert"><img src="noti.svg"></div>
+                    <div class="acc noti invert">T</div>
+                </div>
+            </div>
+            <div class="liked-songs">
+                <div class="liked-img"><img src="https://misc.scdn.co/liked-songs/liked-songs-64.png"></div>
+                <div class="text-cont">
+                    <div class="text-1">Playlist</div>
+                    <div class="text-2">Liked Songs</div>
+                    <div class="text-3">Tech Vansh . 90 songs . Made by Vansh</div>
+                </div>
+            </div>
+            <div class="song-play">
+                <div class="playsvg"><img src="play.svg" class="play2"></div>
+                <div class="table">
+                    <div class="table-heading1">#</div>
+                    <div class="table-heading2">Title</div>
+                    <div class="table-heading3">Album</div>
+                    <div class="table-heading4not">Data Added</div>
+                    <div class="table-heading5not">Time</div>
+                </div>
+                <div class="space"></div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">1</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name active"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">2</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">3</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">4</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">5</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">6</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">7</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">8</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">9</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+                <div class="sub-table">
+                    <div class="table-heading1 mandatory">10</div>
+                    <div class="table-heading2 song-card-cont">
+                        <div class="song-image"><img class="cover" src="https://i.scdn.co/image/ab67616d000011eb4dbf782532ca5d09012dc2d5"></div>
+                        <div class="song-box-cont">
+                            <div class="song-name"><a href="#" class="link">Obsessed</a></div>
+                            <div class="song-desc">Singer Name</div>
+                        </div>
+                    </div>
+                    <div class="table-heading3 mandatory"><a class="grey1 link" href="#">obsessed</a></div>
+                    <div class="table-heading4 mandatory">2 weeks ago</div>
+                    <div class="table-heading5 mandatory">3:10</div>
+                </div>
+            </div>
+            
+                
+            <div class="end">
+                <div class="companies">
+                    <div class="main">Companies</div>
+                    <div><a class="sub" href="#">About</a></div>
+                    <div><a class="sub" href="#">Jobs</a></div>
+                    <div><a class="sub" href="#">For the record</a></div>
+                </div>
+                <div class="communities">
+                    <div class="main">Communities</div>
+                    <div><a class="sub" href="#">For Artist</a></div>
+                    <div><a class="sub" href="#">Developers</a></div>
+                    <div><a class="sub" href="#">Investors</a></div>
+                    <div><a class="sub" href="#">Vendors</a></div>
+                </div>
+                <div class="useful links">
+                    <div class="main">Useful links</div>
+                    <div><a class="sub" href="#">Support</a></div>
+                    <div><a class="sub" href="#">Free Mobile App</a></div>
+                </div>
+            </div>
+            <div class="lastruler"></div>
+            <div class="spotifyending">2024 Spotify AB @ Made By Vansh Bindal All Rights Reserved</div>
+        </div>
+    </div>
+    <div class="musicplayer1">
+        
+        <div class="musicplayer">
+            <div class="music-card-bottom">
+                <div class="bottom-image"><img class="cov" src="covers\1.jpg"></div>
+                <div class="bottom-cont">
+                    <div class="bottom-title">Warriyo - Mortals [NCS Release]</div>
+                    <div class="bottom-desc">Singer Name</div>
+                </div>
+                <div class="bottom-image1"><img class="gif" src="playing.gif"></div>
+            </div>
+            <div class="forward cur2"><img class="forward" src="forward.svg"></div>
+            <div class="re cur2"><img class="play1" src="play.svg"></div>
+            <div class="forward cur2"><img class="previous" src="backward.svg"></div>
+        </div>
+        <div class="range">
+            <form>
+                <input name="range" value="0" class="myProgressBar" type="range">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
